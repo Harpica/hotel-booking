@@ -1,0 +1,12 @@
+.reservation__cards {
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  align-content: stretch;
+  justify-content: center;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 384px));
+  padding: 88px 0 80px;
+  gap: 24px;
+}

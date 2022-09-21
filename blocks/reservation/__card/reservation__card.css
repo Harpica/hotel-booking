@@ -1,0 +1,11 @@
+.reservation__card {
+  max-width: 384px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* display: grid;
+  align-content: stretch;
+  grid-template-rows: repeat(4, max-content); */
+
+}
