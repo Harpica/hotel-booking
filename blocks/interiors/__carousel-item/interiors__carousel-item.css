@@ -1,3 +1,4 @@
-.carousel__list-item {
+.interiors__carousel-item {
   line-height: 0;
+  cursor: pointer;
 }
