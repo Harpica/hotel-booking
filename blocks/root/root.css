@@ -1,0 +1,12 @@
+.page {
+  width: 100%;
+  color: #848FAC;
+  font-family: "Inter", Arial, sans-serif;
+  /* Сглаживаем шрифты */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
