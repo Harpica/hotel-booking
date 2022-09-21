@@ -42,4 +42,16 @@
 @import url(../blocks/reviews/__slider-dot/reviews__slider-dot.css);
 @import url(../blocks/reviews/__title/rewiews__title.css);
 /* Подключаем стили footer */
+@import url(../blocks/address/address.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/_align_right/footer__column_align_right.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__link-social/footer__link-social.css);
+@import url(../blocks/footer/__link-twitter/footer__link-twitter.css);
+@import url(../blocks/footer/__link-vk/footer__link-vk.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links-social/footer__links-social.css);
