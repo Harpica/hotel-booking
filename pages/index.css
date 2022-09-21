@@ -1,3 +1,22 @@
 @import url(../vendor/normalize.css);
 /* Подключаем шрифты */
 @import url(../vendor/fonts.css);
+/* Подключаем стили root */
+@import url(../blocks/root/root.css);
+/* Подключаем стили блока content */
+@import url(../blocks/content/content.css);
+/* Подключаем стили блока slaider-dots */
+@import url(../blocks/slider-dots/slider-dots.css);
+@import url(../blocks/slider-dots/__dot/slider-dots__dot.css);
+@import url(../blocks/slider-dots/__dot/_active/slider-dots__dot_active.css);
+/* Подключаем стили блока section-title */
+@import url(../blocks/section-title/section-title.css);
+/* Подключаем стили секции interiors */
+@import url(../blocks/interiors/interiors.css);
+@import url(../blocks/interiors/__slider/interiors__slider.css);
+@import url(../blocks/interiors/__slide/interiors__slide.css);
+@import url(../blocks/interiors/__carousel/interiors__carousel.css);
+@import url(../blocks/interiors/__carousel-item/interiors__carousel-item.css);
+@import url(../blocks/interiors/__image/interiors__image.css);
+@import url(../blocks/interiors/__title/interiors__title.css);
+@import url(../blocks/interiors/__slaider-dots/interiors__slider-dots.css);
