@@ -92,8 +92,8 @@
 
     </main>
     <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column footer__column_align_right">
+      <div class="footer__columns-container">
+        <div class="footer__column">
           <img class="logo logo_place_footer" src="./images/logo_footer.svg" atl="Логотип HotelBooking">
           <p class="footer__description">Загородный отдых с замечательными видами</p>
           <ul class="footer__links-social">
@@ -105,30 +105,32 @@
             </li>
           </ul>
         </div>
-        <div class="footer__column">
-          <h3 class="footer__column-heading">Дома</h3>
-          <nav class="footer__column-links">
-            <a href="#" class="footer__link" target="_self">Маленький домик</a>
-            <a href="#" class="footer__link" target="_self">Большой дом</a>
-            <a href="#" class="footer__link" target="_self">Двухэтажный дом</a>
-          </nav>
-        </div>
-        <div class="footer__column">
-          <h3 class="footer__column-heading">Бронирование</h3>
-          <nav class="footer__column-links">
-            <a href="#" class="footer__link" target="_blank">Оформление</a>
-            <a href="#" class="footer__link" target="_blank">Оплата</a>
-          </nav>
-        </div>
-        <div class="footer__column">
-          <h3 class="footer__column-heading">Контакты</h3>
-          <ul class="footer__contacts">
-            <li class="footer__contact">8-800-555-35-35</li>
-            <li class="footer__contact">email@yandex.ru</li>
-            <li class="footer__contact">
-              <address class="address">Деревня Кимжа, Архангельская область</address>
-            </li>
-          </ul>
+        <div class="footer__columns-right">
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Дома</h3>
+            <nav class="footer__column-content">
+              <a href="#" class="footer__link" target="_self">Маленький домик</a>
+              <a href="#" class="footer__link" target="_self">Большой дом</a>
+              <a href="#" class="footer__link" target="_self">Двухэтажный дом</a>
+            </nav>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Бронирование</h3>
+            <nav class="footer__column-content">
+              <a href="#" class="footer__link" target="_blank">Оформление</a>
+              <a href="#" class="footer__link" target="_blank">Оплата</a>
+            </nav>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Контакты</h3>
+            <ul class="footer__column-content">
+              <li class="footer__contact"><span class="footer__span-accent">8-800-555-35-35</span></li>
+              <li class="footer__contact">email@yandex.ru</li>
+              <li class="footer__contact">
+                <address class="address">Деревня Кимжа, Архангельская область</address>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 

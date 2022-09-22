@@ -1,0 +1,5 @@
+.footer__columns-right {
+  display: flex;
+  flex-direction: row;
+  gap: 95px;
+}

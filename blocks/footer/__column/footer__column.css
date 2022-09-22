@@ -1,5 +1,6 @@
-.footer__columns {
+.footer__column {
   display: flex;
-  justify-content: space-between;
-  padding: 116px 120px 120px;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 186px;
 }
