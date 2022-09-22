@@ -6,3 +6,15 @@
   margin: 0;
   padding: 44px 0 40px;
 }
+
+@media screen and (max-width: 1023px){
+  .reviews__quote {
+    padding: 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .reviews__quote {
+    padding: 16px 0 16px;
+  }
+}
