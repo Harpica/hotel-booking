@@ -7,3 +7,10 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 587px) {
+  .footer__column-content {
+    align-items: center;
+
+  }
+}

@@ -44,6 +44,7 @@
 /* Подключаем стили footer */
 @import url(../blocks/address/address.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column-left/footer__column-left.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-content/footer__column-content.css);
 @import url(../blocks/footer/__column/footer__column.css);
@@ -57,3 +58,4 @@
 @import url(../blocks/footer/__links-social/footer__links-social.css);
 @import url(../blocks/footer/__span-accent/footer__span-accent.css);
 @import url(../blocks/footer/__contact/footer__contact.css);
+
