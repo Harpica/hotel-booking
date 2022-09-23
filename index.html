@@ -15,6 +15,126 @@
 
 <body>
   <div class="page">
+    <main class="content">
+      <section class="interiors">
+        <h2 class="interiors__title section-title">Наши интерьеры</h2>
+        <div class="interiors__slider">
+          <div class="interiors__slide">
+            <img class="interiors__image" src="./images/grid-item_1.jpg" alt="Фото интерьера в бежевых тонах">
+            <div class="slider-dots interiors__slider-dots">
+              <button class="slider-dots__dot"></button>
+              <button class="slider-dots__dot_active"></button>
+              <button class="slider-dots__dot"></button>
+              <button class="slider-dots__dot"></button>
+            </div>
+          </div>
+          <ul class="interiors__carousel">
+            <li class="interiors__carousel-item">
+              <img class="interiors__image" src="./images/grid-item_2.jpg" alt="Фото интерьера с ярким диваном">
+            </li>
+            <li class="interiors__carousel-item">
+              <img class="interiors__image" src="./images/grid-item_3.jpg" alt="Фото интерьера с белой кухней">
+            </li>
+            <li class="interiors__carousel-item">
+              <img class="interiors__image" src="./images/grid-item_4.jpg" alt="Фото интерьера с зеленой стеной">
+            </li>
+          </ul>
+
+        </div>
+      </section>
+      <section class="reservation">
+        <h2 class="reservation__title section-title">Выберите ваш дом</h2>
+        <p class="reservation__description">У нас есть дома для любых мероприятий. Для большой компании у нас есть
+          двухэтажный дом на самом краю леса.</p>
+        <a class="button" href="#">Подробнее</a>
+        <ul class="reservation__cards">
+          <li class="reservation__card">
+            <img class="reservation__image" src="./images/card_small-house.jpg" alt="Фото маленького домика для аренды">
+            <h3 class="reservation__card-header">Маленький домик</h3>
+            <p class="reservation__card-description">Уютный коттедж с 3 спальнями и бильярдом.</p>
+            <a href="#" class="reservation__card-link">Подробнее</a>
+          </li>
+          <li class="reservation__card">
+            <img class="reservation__image" src="./images/card_big-house.jpg" alt="Фото большого дома для аренды">
+            <h3 class="reservation__card-header">Большой дом</h3>
+            <p class="reservation__card-description">266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
+              бильярдом.</p>
+            <a href="#" class="reservation__card-link">Подробнее</a>
+          </li>
+          <li class="reservation__card">
+            <img class="reservation__image" src="./images/card_two-storey-house.jpg"
+              alt="Фото двухэтажного дома для аренды">
+            <h3 class="reservation__card-header">Двухэтажный дом</h3>
+            <p class="reservation__card-description">Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально
+              подойдет для полноценного празднования нового года.</p>
+            <a href="#" class="reservation__card-link">Подробнее</a>
+          </li>
+        </ul>
+      </section>
+      <section class="reviews">
+        <h2 class="section-title reviews__title">Отзывы</h2>
+        <ul class="reviews__list">
+          <li class="reviews__review">
+            <img class="reviews__author-photo" src="./images/reviews_photo.jpg" alt="Фото человека, оставившего отзыв">
+            <blockquote class="reviews__quote">Мы очень долго искали коттедж, чтобы отметить день рождение. Все очень
+              понравилось. Комфортно, уютно,не дом, а сказка. Все очень понравилось,, хочется приехать еще сюда не один
+              раз</blockquote>
+            <p class="reviews__author">Ирина Иванова</p>
+          </li>
+        </ul>
+        <div class="slider-dots">
+          <button class="slider-dots__dot reviews__slider-dot"></button>
+          <button class="slider-dots__dot_active"></button>
+          <button class="slider-dots__dot reviews__slider-dot"></button>
+          <button class="slider-dots__dot reviews__slider-dot"></button>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer__columns-container">
+        <div class="footer__column-left">
+          <img class="logo logo_place_footer" src="./images/logo_footer.svg" atl="Логотип HotelBooking">
+          <p class="footer__description">Загородный отдых с замечательными видами</p>
+          <ul class="footer__links-social">
+            <li class="footer__link-social">
+              <a href="#" class="footer__link-twitter"></a>
+            </li>
+            <li class="footer__link-social">
+              <a href="#" class="footer__link-vk"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__columns-right">
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Дома</h3>
+            <nav class="footer__column-content">
+              <a href="#" class="footer__link" target="_self">Маленький домик</a>
+              <a href="#" class="footer__link" target="_self">Большой дом</a>
+              <a href="#" class="footer__link" target="_self">Двухэтажный дом</a>
+            </nav>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Бронирование</h3>
+            <nav class="footer__column-content">
+              <a href="#" class="footer__link" target="_blank">Оформление</a>
+              <a href="#" class="footer__link" target="_blank">Оплата</a>
+            </nav>
+          </div>
+          <div class="footer__column">
+            <h3 class="footer__column-heading">Контакты</h3>
+            <ul class="footer__column-content">
+              <li class="footer__contact"><span class="footer__span-accent">8-800-555-35-35</span></li>
+              <li class="footer__contact">email@yandex.ru</li>
+              <li class="footer__contact">
+                <address class="address">Деревня Кимжа, Архангельская область</address>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </footer>
   </div>
 </body>
 

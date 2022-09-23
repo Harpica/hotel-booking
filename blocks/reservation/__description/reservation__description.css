@@ -1,0 +1,15 @@
+.reservation__description {
+  margin: 0;
+  padding-bottom: 32px;
+  max-width: 558px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 767px){
+  .reservation__description {
+    padding-bottom: 20px;
+  }
+}
