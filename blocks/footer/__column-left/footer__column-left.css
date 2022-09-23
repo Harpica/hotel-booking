@@ -1,21 +1,7 @@
 .footer__column-left {
-  /* display: flex;
-  flex-direction: column;
-  max-width: fit-content;
-  gap: 13px; */
   display: grid;
   gap: 13px;
 }
-
-/* @media screen and (max-width: 1023px) {
-  .footer__column-left {
-    max-width: 100%;
-    flex-direction: row;
-    gap: 0px;
-    justify-content: space-between;
-    align-items: center;
-  }
-} */
 
 @media screen and (max-width: 1023px) {
   .footer__column-left {
@@ -35,3 +21,4 @@
 
   }
 }
+

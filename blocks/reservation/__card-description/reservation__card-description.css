@@ -6,3 +6,9 @@
   /* в padding также входит размер card-link - 27px */
   padding-bottom: calc(32px + 27px);
 }
+
+@media screen and (max-width: 1023px) {
+  .reservation__card-description {
+    font-size: 15px;
+  }
+}

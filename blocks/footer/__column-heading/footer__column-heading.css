@@ -6,3 +6,9 @@
   color: #ffffff;
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__column-heading {
+    font-size: 12px;
+  }
+}
