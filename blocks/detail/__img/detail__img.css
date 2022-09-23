@@ -1,5 +1,6 @@
 .detail__img {
   width: 100%;
+  max-width: 384px;
   object-fit: cover;
   object-position: center;
 }
