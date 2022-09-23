@@ -7,4 +7,9 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.slider-dots__dot:hover {
+  transform: scale(1.6);
 }

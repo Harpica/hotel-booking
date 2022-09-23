@@ -41,8 +41,11 @@
 @import url(../blocks/reviews/__review/reviews__review.css);
 @import url(../blocks/reviews/__slider-dot/reviews__slider-dot.css);
 @import url(../blocks/reviews/__title/rewiews__title.css);
-/* Подключаем стили footer */
+/* Подключаем стили address*/
 @import url(../blocks/address/address.css);
+/* Подключаем стили email*/
+@import url(../blocks/email/email.css);
+/* Подключаем стили footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column-left/footer__column-left.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
