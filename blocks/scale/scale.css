@@ -8,5 +8,5 @@
 }
 
 .scale {
-  animation: scale 4s linear 1;
+  animation: scale 1.5s ease-out 1;
 }
