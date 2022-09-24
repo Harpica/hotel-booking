@@ -12,8 +12,18 @@
   cursor: pointer;
 }
 
+.button:hover {
+  background: #1d49aa;
+}
+
+.button:active {
+  transform: scale(1.05,1.05);
+}
+
 @media screen and (max-width: 1023px) {
   .button {
     font-size: 12px;
   }
 }
+
+
