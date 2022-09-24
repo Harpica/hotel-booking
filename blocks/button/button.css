@@ -18,6 +18,7 @@
 
 .button:active {
   transform: scale(1.05,1.05);
+  filter: drop-shadow(3px 3px 5px #00ffff);
 }
 
 @media screen and (max-width: 1023px) {
