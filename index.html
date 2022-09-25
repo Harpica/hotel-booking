@@ -100,20 +100,20 @@
         двухэтажный дом на самом краю леса.</p>
       <button class="button button_size_two">Подробнее</button>
       <ul class="reservation__cards">
-        <li class="reservation__card">
+        <li class="reservation__card" id="small-house">
           <img class="reservation__image" src="./images/card_small-house.jpg" alt="Фото маленького домика для аренды">
           <h3 class="reservation__card-header">Маленький домик</h3>
           <p class="reservation__card-description">Уютный коттедж с 3 спальнями и бильярдом.</p>
           <a href="#" class="reservation__card-link">Подробнее</a>
         </li>
-        <li class="reservation__card">
+        <li class="reservation__card" id="big-house">
           <img class="reservation__image" src="./images/card_big-house.jpg" alt="Фото большого дома для аренды">
           <h3 class="reservation__card-header">Большой дом</h3>
           <p class="reservation__card-description">266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
             бильярдом.</p>
           <a href="#" class="reservation__card-link">Подробнее</a>
         </li>
-        <li class="reservation__card">
+        <li class="reservation__card" id="two-storey-house">
           <img class="reservation__image" src="./images/card_two-storey-house.jpg"
             alt="Фото двухэтажного дома для аренды">
           <h3 class="reservation__card-header">Двухэтажный дом</h3>
@@ -143,7 +143,7 @@
     </section>
 
   </main>
-  <footer class="footer" id="contacts">
+  <footer class="footer">
     <div class="footer__columns-container">
       <div class="footer__column-left">
         <img class="logo" src="./images/logo_footer.svg" alt="Логотип HotelBooking">
@@ -161,9 +161,9 @@
         <div class="footer__column">
           <h3 class="footer__column-heading">Дома</h3>
           <nav class="footer__column-content">
-            <a href="#" class="footer__link" target="_self">Маленький домик</a>
-            <a href="#" class="footer__link" target="_self">Большой дом</a>
-            <a href="#" class="footer__link" target="_self">Двухэтажный дом</a>
+            <a href="#small-house" class="footer__link" target="_self">Маленький домик</a>
+            <a href="#big-house" class="footer__link" target="_self">Большой дом</a>
+            <a href="#two-storey-house" class="footer__link" target="_self">Двухэтажный дом</a>
           </nav>
         </div>
         <div class="footer__column">
@@ -173,7 +173,7 @@
             <a href="#" class="footer__link" target="_blank">Оплата</a>
           </nav>
         </div>
-        <div class="footer__column">
+        <div class="footer__column"  id="contacts">
           <h3 class="footer__column-heading">Контакты</h3>
           <ul class="footer__column-content">
             <li class="footer__contact"><span class="footer__span-accent">8-800-555-35-35</span></li>

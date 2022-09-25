@@ -7,6 +7,7 @@ Competition project from Ya.Practicum on HTML&amp;CSS
 
 ## Description
 * This is one-page site adapted for common used devices with CSS animation
+and links within the page
 
 ## Instruments & Tecnologies
 * HTML5.
