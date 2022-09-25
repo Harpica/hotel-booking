@@ -18,6 +18,7 @@ and links within the page
 * Semantic tags in HTML.
 * Adaptive design.
 * Grid&Flexbox were used.
+* @keyframes.
 
 ## Futher development
 * Cross-browser adaptation.
