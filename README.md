@@ -1,5 +1,7 @@
 # Project 'HotelBooking'
 Competition project from Ya.Practicum on HTML&amp;CSS
+
+## Link to the published project
 https://harpica.github.io/hotel-booking/
 
 ## Authors
