@@ -1,5 +1,6 @@
 # Project 'HotelBooking'
 Competition project from Ya.Practicum on HTML&amp;CSS
+https://harpica.github.io/hotel-booking/
 
 ## Authors
 [Sofia Livarenko](https://github.com/sonyalivarenko)
